@@ -1,19 +1,51 @@
-# IntelliJ
+# =========================
+# IntelliJ IDEA
+# =========================
 .idea/
 *.iml
+out/
 
-# Build outputs
+# =========================
+# Maven
+# =========================
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# =========================
+# Gradle
+# =========================
+.gradle/
 build/
 
-# Logs and temp
+# =========================
+# Logs & Temp
+# =========================
 *.log
 *.tmp
+*.swp
+*.pid
 
-# Database/data volumes
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker / Databases
+# =========================
+# Ignore runtime containers/volumes
 data/
 volume-data/
-
-# Docker
-*.pid
+*/data/
 *.sock
+
+# =========================
+# Misc
+# =========================
+*.class
+*.war
+*.ear
