@@ -1,0 +1,19 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build outputs
+target/
+build/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Database/data volumes
+data/
+volume-data/
+
+# Docker
+*.pid
+*.sock
